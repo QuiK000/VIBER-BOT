@@ -1,0 +1,22 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "this bot can send music in viber",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot"
+  },
+  "keywords": [
+    "bot",
+    "music",
+    "viber"
+  ],
+  "author": "KOT3",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "viber-bot": "^1.0.16",
+    "winston": "^3.0.0",
+    "winston-console-formatter": "^1.0.0-beta.3"
+  }
+}
